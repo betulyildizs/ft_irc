@@ -1,4 +1,5 @@
-SRCS = main.cpp 
+SRCS = main.cpp error.cpp client.cpp command.cpp poller.cpp\
+	   parser.cpp server.cpp channel.cpp socket.cpp utils.cpp \
 
 NAME = ircserv
 
