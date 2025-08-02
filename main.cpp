@@ -21,7 +21,7 @@ int is_valid_port(char *port)
 int is_invalid_password(char *password)
 {
     int i;
-    if (!password) //gereksiz mi??
+    if (!password)
         return 1;
     i = 0;
     while (password[i])
@@ -58,4 +58,5 @@ int main(int ac, char **av)
         return 1;
     }
     return 0;
+
 }
