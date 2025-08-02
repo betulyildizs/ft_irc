@@ -26,7 +26,7 @@ int is_invalid_password(char *password)
     i = 0;
     while (password[i])
     {
-        if (ft_isspace(password[i]) || !ft_isascii(password[i]))
+        if (ft_isspace(password[i]))
             return 1; //pdf'te istemiyor ama olması gereken temel bir kontrol
         i++;
     }
@@ -60,3 +60,4 @@ int main(int ac, char **av)
     return 0;
 
 }
+
