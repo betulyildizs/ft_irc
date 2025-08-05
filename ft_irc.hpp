@@ -10,6 +10,12 @@ typedef struct s_error
     bool invalid_password;
 } t_error;
 
+typedef struct s_irc
+{
+    int port;
+    std::string password;
+} t_irc;
+
 void initialize_error(t_error &error);
 int	ft_isdigit(int y);
 void err(t_error error);
